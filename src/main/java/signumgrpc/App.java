@@ -84,7 +84,7 @@ public class App {
                 return response;
         }
 
-        public static JsonObject sendHttp(JsonElement request) {
+        public static JsonObject sendHttp(JsonElement request) { // Minimal verion of https://github.com/signum-network/signum-node/blob/7990b0d4cabdaffa1e78e41fbf09c43b9b78200f/src/brs/peer/PeerImpl.java#L343
                 JsonObject response;
                 HttpURLConnection connection = null;
                 try {
